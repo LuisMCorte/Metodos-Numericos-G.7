@@ -7,7 +7,7 @@
     %Funcion matematica: fx
 
 function [] = Biseccion(a,b)
-  fx = @(x)x^3-7*x^x+14*x-6;          %Funcion a evaluar
+  fx = @(x)x^3-7*x^x+14*x-6;          %Funcion a evaluar 
   e = 1;                   %Error o tolerancia
   i = 1;                   %contador(iteraciones)
   
